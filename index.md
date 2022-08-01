@@ -1,4 +1,4 @@
-{% include something.html %}
+{% include general.html %}
 
 ## Welcome to GitHub Pages
 
