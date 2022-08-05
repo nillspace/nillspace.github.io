@@ -1,0 +1,12 @@
+elzr/vim-json
+WolfgangMehner/bash-support
+farmergreg/vim-lastplace
+godlygeek/tabular
+honza/vim-snippets
+pangloss/vim-javascript
+rhysd/vim-grammarous
+scrooloose/nerdcommenter
+scrooloose/nerdtree
+sukima/vim-tiddlywiki
+tpope/vim-surround
+tibabit/vim-templates
