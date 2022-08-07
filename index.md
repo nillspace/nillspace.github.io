@@ -7,4 +7,5 @@ You can use the [editor on GitHub](https://github.com/nillspace/nillspace.github
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 * [df](dotfiles.html)
+* [VIM 8 plugin managment](vim8-plugins.md)
 

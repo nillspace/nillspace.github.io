@@ -1,14 +1,16 @@
 #!/bin/zsh -x
 PF="https://github.com"
-FM=list-vim-plugins-url.txt
-#cat $FM | xargs -d '\n' printf "$PF/%s\n" | xargs -P 3 git clone
-#head -n2 $FM | xargs -d '\n' printf "$PF/%s" | xargs printf "git clone %s \n" | xargs echo.git
+P=$(pwd)
+FM="$P/bin/list-vim-plugins-url.txt"
+rm -rf "$P/pack"
+mkdir pack && cd pack
+pwd
 
-
-rm -rf pack
-mkdir pack
 cat $FM | \
 while read CMD; do
-    git clone "$PF/$CMD" ./pack/$CMD
+    echo $CMD | tr -d"\" -f1| mkdir
+    echo $CMD | tr -d"\" -f1| cd
+    git clone "$PF/$CMD" $P/pack/$CMD
+    break
 done
 cd pack
