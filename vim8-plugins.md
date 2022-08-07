@@ -34,6 +34,7 @@ rm $FM
 
 ## Validate plugins loading
 
-Open `vim` and check what have been loaded by running one following:
+Open `vim` and check what have been loaded by running one the following commands:
+
 * `:scriptfiles`
 * `:help local-additions`
