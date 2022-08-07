@@ -8,4 +8,5 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 * [df](dotfiles.html)
 * [VIM 8 plugin managment](vim8-plugins.md)
+* [ROOT an Android device](root-an-android.md)
 
