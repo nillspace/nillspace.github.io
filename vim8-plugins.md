@@ -1,14 +1,15 @@
-# VIMa native package managment
+# VIM8 native package support
 
-Starting vim, version 8, packages can be managed naitivly.
-Check out `:help packages` for the whole thing, but to make the story short:
+Since VIM8 packages can be managed naitivly based on `:help packages` info.
+# Tldr
 
-# init plugin pack fs structure
-`take $HOME/.vim/pack
-take your-pack-namespace-dir
+## Init plugin pack fs structure
+```
+take $HOME/.vim/pack
+take YOUR-PACK-NAMESPACE-DIR
 take start
-`
-# clone vim plugin repos
+```
+## Clone vim plugin repos
 
 Note: plugins that are nested ini directories  deeper than `start/`, will not be loaded by default. [rfc](/rfc)
 
@@ -31,7 +32,7 @@ done
 rm $FM
 ```
 
-# validate plugins loading
+## Validate plugins loading
 
 Open `vim` and check what have been loaded by running one following:
 * :scriptfiles`
